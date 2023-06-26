@@ -44,12 +44,12 @@ export const ContactList = () => {
               paddingTop: '20px',
 
               color: 'white',
-              backgroundColor: '#006064',
+              backgroundColor: '#3e8e41',
               borderRadius: '15px',
 
               '&:hover:not(.active)': {
                 color: '#84ffff',
-                backgroundColor: '#006064',
+                backgroundColor: '#3e8e41',
               },
             }}
             type="button"

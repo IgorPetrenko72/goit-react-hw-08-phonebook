@@ -18,7 +18,7 @@ export const AppBar = () => {
         alignItems: 'center',
         justifyContent: 'center',
         color: 'white',
-        backgroundColor: '#006064',
+        backgroundColor: '#3e8e41',
       }}
     >
       <Container

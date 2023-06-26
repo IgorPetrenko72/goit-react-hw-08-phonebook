@@ -9,7 +9,7 @@ export default function Home() {
           textAlign: 'center',
         }}
       >
-        <h1>Hello there. Register or Log In and see more :D</h1>
+        <h1>Register or Log In</h1>
       </Container>
     </main>
   );
