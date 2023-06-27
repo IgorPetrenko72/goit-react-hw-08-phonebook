@@ -29,7 +29,7 @@ export const ContactForm = () => {
   const handleSubmit = event => {
     event.preventDefault();
 
-    const isContactRepeat = contacts.find(el => el.name === name);
+    const isContactRepeat = contacts.find(el => el.name === name.toLowerCase());
 
     if (isContactRepeat) {
       alert('Already in Contacts');
@@ -77,7 +77,7 @@ export const ContactForm = () => {
         id="filled-basic"
         label="Number"
         variant="filled"
-        type="number"
+        type="tel"
         name="number"
         onChange={inputChange}
         pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
