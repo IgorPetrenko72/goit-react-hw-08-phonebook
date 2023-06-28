@@ -29,7 +29,7 @@ export const ContactForm = () => {
   const handleSubmit = event => {
     event.preventDefault();
 
-    const isContactRepeat = contacts.find(el => el.name === name.toLowerCase());
+    const isContactRepeat = contacts.find(el => el.name.toLowerCase() === name.toLowerCase());
 
     if (isContactRepeat) {
       alert('Already in Contacts');
